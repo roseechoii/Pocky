@@ -14,6 +14,7 @@
 		9A0411B82B87F10C00FEAB9E /* PockyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0411B72B87F10C00FEAB9E /* PockyTests.swift */; };
 		9A0411C22B87F10C00FEAB9E /* PockyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0411C12B87F10C00FEAB9E /* PockyUITests.swift */; };
 		9A0411C42B87F10C00FEAB9E /* PockyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0411C32B87F10C00FEAB9E /* PockyUITestsLaunchTests.swift */; };
+		9A5BEC962B88059F00A88C02 /* MainPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5BEC952B88059F00A88C02 /* MainPageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		9A0411BD2B87F10C00FEAB9E /* PockyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PockyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A0411C12B87F10C00FEAB9E /* PockyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PockyUITests.swift; sourceTree = "<group>"; };
 		9A0411C32B87F10C00FEAB9E /* PockyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PockyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9A5BEC952B88059F00A88C02 /* MainPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				9A0411A82B87F10A00FEAB9E /* ContentView.swift */,
 				9A0411AA2B87F10C00FEAB9E /* Assets.xcassets */,
 				9A0411AC2B87F10C00FEAB9E /* Preview Content */,
+				9A5BEC952B88059F00A88C02 /* MainPageView.swift */,
 			);
 			path = Pocky;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			files = (
 				9A0411A92B87F10A00FEAB9E /* ContentView.swift in Sources */,
 				9A0411A72B87F10A00FEAB9E /* PockyApp.swift in Sources */,
+				9A5BEC962B88059F00A88C02 /* MainPageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
