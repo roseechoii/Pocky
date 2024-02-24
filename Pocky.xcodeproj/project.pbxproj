@@ -15,6 +15,9 @@
 		9A0411C22B87F10C00FEAB9E /* PockyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0411C12B87F10C00FEAB9E /* PockyUITests.swift */; };
 		9A0411C42B87F10C00FEAB9E /* PockyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0411C32B87F10C00FEAB9E /* PockyUITestsLaunchTests.swift */; };
 		9A5BEC962B88059F00A88C02 /* MainPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5BEC952B88059F00A88C02 /* MainPageView.swift */; };
+		9A5BEC992B882E4900A88C02 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5BEC982B882E4900A88C02 /* Card.swift */; };
+		9A5BEC9C2B882F4200A88C02 /* FlashCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5BEC9B2B882F4200A88C02 /* FlashCard.swift */; };
+		9A5BEC9F2B8832AD00A88C02 /* FlashCardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5BEC9E2B8832AD00A88C02 /* FlashCardViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +49,9 @@
 		9A0411C12B87F10C00FEAB9E /* PockyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PockyUITests.swift; sourceTree = "<group>"; };
 		9A0411C32B87F10C00FEAB9E /* PockyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PockyUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		9A5BEC952B88059F00A88C02 /* MainPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageView.swift; sourceTree = "<group>"; };
+		9A5BEC982B882E4900A88C02 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		9A5BEC9B2B882F4200A88C02 /* FlashCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashCard.swift; sourceTree = "<group>"; };
+		9A5BEC9E2B8832AD00A88C02 /* FlashCardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashCardViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,9 @@
 		9A0411A52B87F10A00FEAB9E /* Pocky */ = {
 			isa = PBXGroup;
 			children = (
+				9A5BEC9D2B88329200A88C02 /* ViewModels */,
+				9A5BEC9A2B882F2A00A88C02 /* Views */,
+				9A5BEC972B882E3A00A88C02 /* Models */,
 				9A0411A62B87F10A00FEAB9E /* PockyApp.swift */,
 				9A0411A82B87F10A00FEAB9E /* ContentView.swift */,
 				9A0411AA2B87F10C00FEAB9E /* Assets.xcassets */,
@@ -128,6 +137,30 @@
 				9A0411C32B87F10C00FEAB9E /* PockyUITestsLaunchTests.swift */,
 			);
 			path = PockyUITests;
+			sourceTree = "<group>";
+		};
+		9A5BEC972B882E3A00A88C02 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9A5BEC982B882E4900A88C02 /* Card.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9A5BEC9A2B882F2A00A88C02 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9A5BEC9B2B882F4200A88C02 /* FlashCard.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9A5BEC9D2B88329200A88C02 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				9A5BEC9E2B8832AD00A88C02 /* FlashCardViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,7 +293,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A5BEC992B882E4900A88C02 /* Card.swift in Sources */,
 				9A0411A92B87F10A00FEAB9E /* ContentView.swift in Sources */,
+				9A5BEC9C2B882F4200A88C02 /* FlashCard.swift in Sources */,
+				9A5BEC9F2B8832AD00A88C02 /* FlashCardViewModel.swift in Sources */,
 				9A0411A72B87F10A00FEAB9E /* PockyApp.swift in Sources */,
 				9A5BEC962B88059F00A88C02 /* MainPageView.swift in Sources */,
 			);
