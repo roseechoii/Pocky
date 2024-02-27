@@ -18,6 +18,8 @@
 		9A5BEC992B882E4900A88C02 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5BEC982B882E4900A88C02 /* Card.swift */; };
 		9A5BEC9C2B882F4200A88C02 /* FlashCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5BEC9B2B882F4200A88C02 /* FlashCard.swift */; };
 		9A5BEC9F2B8832AD00A88C02 /* FlashCardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5BEC9E2B8832AD00A88C02 /* FlashCardViewModel.swift */; };
+		9A5BECA12B8D6C6C00A88C02 /* FlashCardListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5BECA02B8D6C6C00A88C02 /* FlashCardListView.swift */; };
+		9A5BECA32B8D6C8500A88C02 /* FlashCardListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5BECA22B8D6C8500A88C02 /* FlashCardListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,8 @@
 		9A5BEC982B882E4900A88C02 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		9A5BEC9B2B882F4200A88C02 /* FlashCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashCard.swift; sourceTree = "<group>"; };
 		9A5BEC9E2B8832AD00A88C02 /* FlashCardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashCardViewModel.swift; sourceTree = "<group>"; };
+		9A5BECA02B8D6C6C00A88C02 /* FlashCardListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashCardListView.swift; sourceTree = "<group>"; };
+		9A5BECA22B8D6C8500A88C02 /* FlashCardListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashCardListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				9A5BEC9B2B882F4200A88C02 /* FlashCard.swift */,
+				9A5BECA02B8D6C6C00A88C02 /* FlashCardListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -159,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				9A5BEC9E2B8832AD00A88C02 /* FlashCardViewModel.swift */,
+				9A5BECA22B8D6C8500A88C02 /* FlashCardListViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -293,12 +299,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A5BECA12B8D6C6C00A88C02 /* FlashCardListView.swift in Sources */,
 				9A5BEC992B882E4900A88C02 /* Card.swift in Sources */,
 				9A0411A92B87F10A00FEAB9E /* ContentView.swift in Sources */,
 				9A5BEC9C2B882F4200A88C02 /* FlashCard.swift in Sources */,
 				9A5BEC9F2B8832AD00A88C02 /* FlashCardViewModel.swift in Sources */,
 				9A0411A72B87F10A00FEAB9E /* PockyApp.swift in Sources */,
 				9A5BEC962B88059F00A88C02 /* MainPageView.swift in Sources */,
+				9A5BECA32B8D6C8500A88C02 /* FlashCardListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

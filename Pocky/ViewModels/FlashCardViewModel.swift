@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-class FlashCardViewModel: ObservableObject {
+class FlashCardViewModel: ObservableObject, Identifiable {
     @Published var contentRotation: Double = 0.0
     @Published var flashCardRotation: Double = 0.0
     @Published var isFlipped: Bool

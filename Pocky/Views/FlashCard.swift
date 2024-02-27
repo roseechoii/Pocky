@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct FlashCard: View {
-    @ObservedObject var viewModel: FlashCardViewModel = FlashCardViewModel(id: UUID(), question: "This is the question", answer: "This is the answer")
+    @ObservedObject var viewModel: FlashCardViewModel
     
     var body: some View {
         content
@@ -35,5 +35,11 @@ struct FlashCard: View {
 }
 
 #Preview {
-    FlashCard()
+    FlashCard(
+        viewModel: FlashCardViewModel(
+            id: UUID(),
+            question: "This is the question",
+            answer: "This is the answer"
+        )
+    )
 }
